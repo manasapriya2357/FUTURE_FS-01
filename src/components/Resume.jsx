@@ -9,10 +9,11 @@ function Resume() {
       </p>
 
       <a
-        href="#"
-        className="resume-btn"
-      >
-        Download Resume
+          href="/resume.docx"
+          download
+          className="resume-btn"
+        >
+          📄 Download Resume
       </a>
     </section>
   );

@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">Manasa Priya</div>
+        <div className="logo">Manasa Priya 💻</div>
 
         <ul className="nav-links">
           <li><a href="#home">Home</a></li>
@@ -31,13 +31,15 @@ function App() {
           />
           <h1>Hi, I'm Manasa Priya 👋</h1>
 
-          <h2>B.Tech Student | Aspiring Full Stack Web Developer</h2>
-
+          <h3>
+            Full Stack Developer | React Enthusiast | Tech Learner
+          </h3>
           <p>
-            I am a passionate B.Tech student with a strong interest in web
-            development and software engineering. I enjoy creating modern,
-            user-friendly applications and continuously improving my technical
-            skills through projects and internships.
+              Aspiring Full Stack Web Developer passionate about
+              building responsive, user-friendly web applications
+              using modern technologies. Currently pursuing B.Tech
+              and continuously improving my skills through projects,
+              internships, and hands-on learning.
           </p>
 
           <div className="social-links">
@@ -64,7 +66,9 @@ function App() {
           </a>
         </div>
 
-          <button>View Projects</button>
+          <a href="#projects" className="project-btn">
+            View Projects
+          </a>
         </div>
       </section>
       <About />
