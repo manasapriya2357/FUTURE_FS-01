@@ -9,7 +9,7 @@ function Resume() {
       </p>
 
       <a
-          href="/resume.docx"
+          href="/resume.pdf"
           download
           className="resume-btn"
         >
